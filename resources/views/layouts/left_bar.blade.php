@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
         <img src="dist/img/Logo_1_PNG.png" alt="AdminLTE Logo" style="height:65px;widht:auto;">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">Admin</span>
     </a>
 
     <!-- Sidebar -->

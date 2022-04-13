@@ -28,6 +28,10 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.min.css') }}">
     <link rel="stylesheet" href="{{ asset('dist/css/mystyle.css') }}">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+    <link re href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
 
 </head>

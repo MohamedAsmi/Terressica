@@ -19,5 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/body', function(){
-    return view('dashboard.charts');
+    return view('dashboard.chats');
 });
