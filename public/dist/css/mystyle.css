@@ -560,3 +560,54 @@ body {
 .board-column-content-wrapper{
   background: #ffebc7;
 }
+
+.order-summery {
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px 2px #ffc107;
+    background: #cfc9c924;
+}
+.order-num{
+  color: #ffc107;
+}
+.sub{
+  font-weight: 900;
+  font-size: 30px;
+}
+h1{
+  font-weight: 900;
+
+}
+.btn-black{
+color: #ffc107;
+background: black;
+font-weight: 900;
+}
+.btn-white{
+color: white;
+background: black;
+}
+.cat-image{
+  width: auto;
+  height: 200px;
+}
+.package-row{
+    background-color: #f2ebeb;
+    padding: 17px;
+    border-radius: 20px;
+    height: 461px;
+    font-size: 20px;
+}
+.package-row:hover{
+    background-color: #ffc107;
+    padding: 17px;
+    border-radius: 20px;
+    height: 461px;
+    font-size: 20px;
+    /* transform: scale(1.2); */
+    z-index: 9999;
+    box-shadow: 5px 10px #888888;
+    width: 140%;
+    height: 130%;
+}
