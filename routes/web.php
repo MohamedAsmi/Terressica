@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/body', function(){
-    return view('dashboard.body');
+    return view('dashboard.teams');
 });
 
 Route::get('/addnewcategory', function(){
@@ -48,4 +48,20 @@ Route::get('/order_semmary_merchain', function(){
 });
 Route::get('/todo', function(){
     return view('dashboard.todo');
+});
+
+
+
+
+Route::get('/setting', function(){
+    return view('dashboard.setting');
+});
+Route::get('/teams', function(){
+    return view('dashboard.teams');
+});
+Route::get('/time_monitorings', function(){
+    return view('dashboard.time_monitorings');
+});
+Route::get('/kolloko', function(){
+    return view('dashboard.kolloko');
 });

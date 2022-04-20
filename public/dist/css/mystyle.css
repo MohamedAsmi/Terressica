@@ -55,8 +55,31 @@ p{
   margin: 0px;
   padding: 0px;
 }
-
-
+th{
+  color: white;
+}
+.monitordiv{
+  padding: 6px;
+    margin: 0px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    width: 62%;
+    font-weight: 900;
+}
+.monitordiv2{
+    color: #faa51a;
+    font-size: 24px;
+    font-weight: 900;
+}
+.monitordiv3{    
+    padding: 8px;
+    background: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 0px;
+}
 
 
 
@@ -610,4 +633,70 @@ background: black;
     box-shadow: 5px 10px #888888;
     width: 140%;
     height: 130%;
+}
+
+.second-nav{
+  background: #000;
+  height: 700px;
+  padding-top: 10px;
+  
+}
+.second-nav .text-head{
+color: #ffc107;
+font-weight: 900;
+font-size: 24px;
+}
+.second-nav .text-sub{
+color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: #ffc107 !important;
+  color: white;
+  font-weight: 900;
+}
+.nav-link:hover{
+  background: #ffc107 !important;
+ 
+}
+.container-body{
+  background: #000;
+}
+.setting-yellow{
+  color: #ffc107 ;
+}
+::placeholder {
+  color: #ffc107 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+input{
+  color: #ffc107 !important;
+  font-weight: 900;
+  font-size: 20px;
+}
+select{
+  color: #ffc107 !important;
+  font-weight: 900;
+  font-size: 20px;
+}
+.kol-image{
+  width: 80%;
+  height: auto;
+}
+.kol-text{
+  height: 92px;
+  padding: 10px;
+  font-weight: 900;
+  color: #ffc107;
+  background: black;
+  border-radius: 10px;
+}
+.kol-text2{
+  font-size: 38px;
+  font-weight: 900;
+  color: #ffc107;
+  
+}
+.kol-body{
+  background: white;
 }

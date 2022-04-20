@@ -24,22 +24,25 @@
 
         <div class="row no-gutters">
             <div class="col-md-4 border-right">
-                <div class="settings-tray">
-
-                    {{-- <img src="dist/img/Logo_1_PNG.png" alt="AdminLTE Logo" style="height:65px;widht:auto;"> --}}
-                    <span class="brand-text font-weight-light">ADMIN</span>
-
-                    {{-- <span class="settings-tray--right">
-                        <i class="material-icons">cached</i>
-                        <i class="material-icons">message</i>
-                        <i class="material-icons">menu</i>
-                    </span> --}}
+                <div class="settings-tray col-md-8">
+                    <span class="brand-text font-weight-light">Saapuneita viestejä (#0)</span>
                 </div>
                 <div class="search-box">
-                    <div class="input-wrapper">
-                        <i class="material-icons">search</i>
-                        <input placeholder="Search here" type="text">
-                        <i class="fa fa-filter"></i>
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="input-wrapper">
+                                <i class="material-icons">search</i>
+                                <input placeholder="Search here" type="text">
+                                {{-- <i class="fa fa-filter"></i> --}}
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-wrapper">
+                                {{-- <i class="material-icons">search</i>
+                                <input placeholder="Search here" type="text"> --}}
+                                <i class="fa fa-filter"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="friend-drawer friend-drawer--onhover">
@@ -108,14 +111,14 @@
                         <img class="profile-image"
                             src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/robocop.jpg" alt="">
                         <div class="text">
-                            <h6>Robo Cop</h6>
-                            <p class="text-muted">Layin' down the law since like before Christ...</p>
+                            <h5>Esko Esimerkki</h5>
+                            {{-- <p class="text-muted">Esko Esimerkki</p> --}}
                         </div>
-                        <span class="settings-tray--right">
+                        {{-- <span class="settings-tray--right">
                             <i class="material-icons">cached</i>
                             <i class="material-icons">message</i>
                             <i class="material-icons">menu</i>
-                        </span>
+                        </span> --}}
                     </div>
                 </div>
                 <div class="chat-panel">
@@ -183,4 +186,5 @@
         </div>
 
     </section>
+
 @endsection

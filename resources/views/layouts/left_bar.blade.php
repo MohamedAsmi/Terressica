@@ -52,8 +52,8 @@
                         </li>
                     </ul>
                 </li> --}}
-                <li class="nav-item">
-                    <a href="{{ url('/body') }}" class="nav-link">
+                <li class="nav-item ">
+                    <a href="{{ url('/body') }}" class="nav-link active">
                         <i class="nav-icon fa fa-home"></i>
                         <p>
                             Home
