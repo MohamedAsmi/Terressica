@@ -53,56 +53,18 @@
                     </ul>
                 </li> --}}
                 <li class="nav-item ">
-                    <a href="{{ url('/body') }}" class="nav-link active">
+                    <a href="{{ url('/charts') }}" class="nav-link ">
                         <i class="nav-icon fa fa-home"></i>
                         <p>
-                            Home
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Hallintapaneeli
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/addnewcategory') }}" class="nav-link">
-                        <i class="nav-icon fas fa-edit"></i>
-                        <p>
-                            Add New Category
-                            {{-- <span class="right badge badge-danger">New</span> --}}
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('/editnewcategory') }}" class="nav-link">
-                        <i class="nav-icon far fa-edit"></i>
-                        <p>
-                            Edit Category
-                            {{-- <span class="right badge badge-danger">New</span> --}}
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('/chart') }}" class="nav-link">
-                        <i class="nav-icon fas fa-chart-bar"></i>
-                        <p>
-                            Chart
-                            {{-- <span class="right badge badge-danger">New</span> --}}
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('/chat') }}" class="nav-link">
+                    <a href="{{ url('/chats') }}" class="nav-link">
                         <i class="nav-icon fab fa-rocketchat"></i>
                         <p>
-                            Chat
-                            {{-- <span class="right badge badge-danger">New</span> --}}
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('/datatable') }}" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
-                        <p>
-                            Datatable
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Viestit
                         </p>
                     </a>
                 </li>
@@ -110,17 +72,47 @@
                     <a href="{{ url('/datatable2') }}" class="nav-link">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
-                            Datatable 2
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Tilaukset
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/order_semmary') }}" class="nav-link">
-                        <i class="nav-icon fab fa-amazon-pay"></i>
+                    <a href="{{ url('/datatable') }}" class="nav-link">
+                        <i class="nav-icon fas fa-table"></i>
                         <p>
-                            Order Summary
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Varaukset
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/kampanjat') }}" class="nav-link">
+                        <i class="nav-icon fab fa-rocketchat"></i>
+                        <p>
+                            Kampanjat
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/datatable') }}" class="nav-link">
+                        <i class="nav-icon fas fa-table"></i>
+                        <p>
+                            Menu & tuotteet
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/datatable2') }}" class="nav-link">
+                        <i class="nav-icon fas fa-table"></i>
+                        <p>
+                            Työntekijät
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/order_semmary') }}" class="nav-link ">
+                        <i class="nav-icon fab fa-rocketchat"></i>
+                        <p>
+                            Muokkaa terassisivua
                         </p>
                     </a>
                 </li>
@@ -128,8 +120,7 @@
                     <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
                         <i class="nav-icon fab fa-amazon-pay"></i>
                         <p>
-                            Order Summary 2
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Analytiikka
                         </p>
                     </a>
                 </li>
@@ -137,8 +128,31 @@
                     <a href="{{ url('/todo') }}" class="nav-link">
                         <i class="nav-icon fas fa-tasks"></i>
                         <p>
-                            To Do
-                            {{-- <span class="right badge badge-danger">New</span> --}}
+                            Analytiikka
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/todo') }}" class="nav-link ">
+                        <i class="nav-icon fas fa-sliders-h"></i>
+                        <p>
+                            Ansainta
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/todo') }}" class="nav-link ">
+                        <i class="nav-icon fas fa-sliders-h"></i>
+                        <p>
+                            Salikartta
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/malit') }}" class="nav-link active">
+                        <i class="nav-icon fas fa-sliders-h"></i>
+                        <p>
+                            Asetukset
                         </p>
                     </a>
                 </li>

@@ -42,7 +42,7 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/addnewcategory') }}" class="nav-link active">
+                            <a href="{{ url('/addnewcategory') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Terassin tiedot
                                 </p>
@@ -89,7 +89,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
+                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link active">
                                 <p class="text-sub">
                                     Mallit
                                 </p>

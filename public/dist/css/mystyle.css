@@ -4,7 +4,9 @@
     --warning: #ffc107;
     --danger: #dc3545;
 } */
-
+body{
+  font-family: 'Boogaloo', cursive;
+}
 .primary-color{
     
 }
@@ -55,7 +57,7 @@ p{
   margin: 0px;
   padding: 0px;
 }
-th{
+.teams th{
   color: white;
 }
 .monitordiv{
@@ -699,4 +701,98 @@ select{
 }
 .kol-body{
   background: white;
+}
+.btn-white{
+  background: white;
+  color: #000;
+}
+
+.dataTables_wrapper .dataTables_length{
+  display: none !important;
+}
+.dataTables_wrapper .dataTables_filter{
+  display: none !important;
+}
+.dataTables_wrapper .dataTables_info{
+  display: none !important;
+}
+.dataTables_wrapper .dataTables_paginate{
+  display: none !important;
+}
+.edit-design{
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.edit-design .list-item{
+    background: #c5c5c575;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+}
+
+.body-design{
+  background: white;
+    /* height: 700px; */
+  border-radius: 20px 20px 20px 0px;
+}
+.text-design-form{
+    padding: 18px;
+    /* height: 640px; */
+    margin: 5px;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+}
+.edit-design-text{
+   height: 70px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffc107;
+    background: black;
+    border-radius: 10px;
+    margin: 0px;
+}
+.edit-design-text p{
+  margin: -7px;
+}
+
+.text-gray{
+  color: gray;
+  font-size: 18px;
+  font-weight: 900;
+}
+.text-black{
+  color: black;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.text-black-big{
+  color: #fAA51A;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.head-design{
+  color: gray;
+}
+.text-orange{
+  color: #fAA51A;
+  font-size: 18px;
+  font-weight: 900;
+}
+.footer{
+    background: white;
+    padding: 10px;
+    position: absolute;
+    width: 109%;
+    bottom: 24px;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: -20px;
 }

@@ -37,7 +37,7 @@
             <form>
                 <table class="table text-left mt-4">
                     <thead>
-                        <tr>
+                        <tr class="teams">
                             <th scope="col">Tiimi</th>
                             <th scope="col">Työntekijät</th>
                         </tr>

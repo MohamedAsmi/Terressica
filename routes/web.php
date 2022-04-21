@@ -28,10 +28,10 @@ Route::get('/addnewcategory', function(){
 Route::get('/editnewcategory', function(){
     return view('dashboard.add_new_category_edit');
 });
-Route::get('/chart', function(){
+Route::get('/charts', function(){
     return view('dashboard.charts');
 });
-Route::get('/chat', function(){
+Route::get('/chats', function(){
     return view('dashboard.chats');
 });
 Route::get('/datatable', function(){
@@ -64,4 +64,10 @@ Route::get('/time_monitorings', function(){
 });
 Route::get('/kolloko', function(){
     return view('dashboard.kolloko');
+});
+Route::get('/malit', function(){
+    return view('dashboard.malit');
+});
+Route::get('/edit_design_file', function(){
+    return view('dashboard.edit_design_file');
 });
