@@ -34,4 +34,7 @@
 
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
 
+    <!-- subcription -->
+    <link rel='stylesheet' href="{{ asset('plugins/fontawesome/css/all.min.css') }}">
+    <link rel='stylesheet' href="{{ asset('css/custom_css.css') }}">
 </head>

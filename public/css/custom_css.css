@@ -1,0 +1,340 @@
+/* /////////////  navbar style  ///////////////////// */
+#navbar_list {
+    list-style: none;
+    padding: 0px 0px 0px 30px;
+    margin-top: 15px;
+}
+
+#navbar_list span {
+    font-weight: bold;
+    float: left;
+    padding-right: 20px;
+}
+
+#navbar_list li {
+    padding: 0px;
+}
+
+#navbar_list .ch_box {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#navbar_list input {
+    display: none;
+}
+
+#navbar_list .ch_box div {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    margin-top: 6px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.de_navbar {
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#navbar_list .ch_box div svg {
+    margin: 1px;
+    font-size: 12px;
+}
+
+#nav_logo {
+    width: 100%;
+}
+
+/* ///////////////////////////////////////////////// */
+/*  */
+/* ////////////////////form style////////////////// */
+#valitse_form .col__3 {
+    width: 33.33%;
+    float: left;
+}
+
+#valitse_form .col__12 {
+    width: 99%;
+}
+
+#valitse_form label, #valitse_form input {
+    font-size: 14px;
+}
+
+.input_border input {
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: black;
+    outline: none;
+    width: 95%;
+    margin: auto;
+    color: #fff !important;
+    margin-bottom: 50px;
+}
+
+.text__color {
+    color: #c4c4c4;
+}
+
+#valitse_form {
+    padding: 5%;
+    background-color: black;
+    border-radius: 4%;
+    float: left;
+}
+
+.right_site_content {
+    padding: 5% 0px 0px 5%;
+    float: left;
+}
+
+.right_site_content img, .right_site_content span {
+    float: left;
+}
+
+/* .right_site_content img {
+    width: 15%;
+} */
+
+.right_site_content span {
+    width: 85%;
+    padding-left: 5%;
+    font-weight: bold;
+    /* padding-top: 40px; */
+}
+
+/* .right_site_content div {
+    width: 100%;
+    min-height: 325px
+} */
+
+.right_site_content .w_500 {
+    width: 470px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.m_5 {
+    margin-bottom: 5px !important;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#valitse_form h1 {
+    padding: 60px 0px 0px;
+    color: #faa51a;
+}
+
+#valitse_form h5 {
+    padding: 0px 0px 40px;
+    color: #faa51a;
+    font-size: 16px;
+}
+
+#valitse_form .f_check_box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    margin: 0px 5px 0px 0px;
+    cursor: pointer;
+    background-color: #c4c4c4;
+    float: left;
+    text-align: center;
+}
+
+.su_button {
+    padding: 0px;
+    height: 60px !important;
+    background-color: #faa51a;
+    color: #fff !important;
+    align-items: center;
+    appearance: none;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#valitse_form .information {
+    color: #fff !important;
+}
+
+.pay_method_cl {
+    width: 100%;
+    padding-right: 35px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 12px 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.pay_method_cl svg {
+    float: right;
+    margin: 6px 0px;
+}
+
+.mb_100 {
+    margin-bottom: 100px !important;
+}
+.mb_50 {
+    margin-bottom: 50px !important;
+}
+#card_template {
+    padding: 50px;
+}
+
+#card_template div ,div.card_template{
+    min-height: 0px !important;
+}
+
+#card_template .card_img {
+    padding: 13px 0px 12px 20px;
+    margin-bottom: 20px;
+}
+
+#card_template input {
+    border: 1px solid #c4c4c4;
+    border-right: none;
+    font-size: 17px;
+    outline: none;
+    color: #c4c4c4;
+    padding: 10px 30px 10px 20px;
+    border-radius: 6px;
+}
+
+#card_number {
+    padding: 10px 30px 10px 20px !important;
+    margin-bottom: 20px;
+    border-radius: 6px 0px 0px 6px !important;
+}
+
+.full_border {
+    border: 1px solid #c4c4c4 !important;
+}
+
+#card_template label {
+    border: 1px solid #c4c4c4;
+    border-left: none;
+    border-radius: 0px 6px 6px 0px;
+
+}
+
+.m_5_p {
+    margin-right: 4%;
+}
+
+.col_6 {
+    width: 47%;
+    margin-bottom: 30px;
+}
+
+.payment_card_Section, .e-invoicing_section {
+    display: none;
+}
+.mt_100{
+    margin-top: 100px;
+}
+#card_template .su_button,.card_template .su_button {
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+.summary_cl{
+    width: 100%;
+    padding-right: 35px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.card_template h2{
+    height: 50px;
+}
+.card_template span{
+    width: auto !important;
+    padding-left: 0px;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-right: 20px;
+}
+.card_template span.text__color{
+    color: #faa51a;
+}
+
+.th-pop_up{
+    background-color: #fff;
+    width: 100% !important;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin-top: -250%;
+}
+.pop_logo{
+    height: 250px !important;
+    
+    /* padding-top: 0px !important; */
+}
+/* #popup_logo{
+    width: 40%;
+    margin: auto;
+
+} */
+.pop_up_header{
+    font-size: 50px;
+    /* max-height: 40px; */
+    /* width: 100%; */
+    text-align: center;
+    color: #faa51a;
+}
+.pop_up_desc{
+    width: 100%;
+    text-align: center;
+
+    /* line-height: 20px; */
+    /* max-height: 40px; */
+}
+.th-pop_up .su_button{
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 15px;
+}
+.th-pop_up svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 40px 0px 0px;
+    cursor: pointer;
+}
