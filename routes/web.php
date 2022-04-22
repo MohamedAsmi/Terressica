@@ -56,7 +56,7 @@ Route::get('/todo', function () {
 
 
 
-
+////////////////////////// settings ///////////////////////////////////////////////////
 Route::get('/setting', function () {
     return view('dashboard.setting');
 });
@@ -79,6 +79,37 @@ Route::get('/earn', function(){
     return view('dashboard.earn');
 });
 
+Route::get('/qr-koodit', function () {
+    return view('dashboard.settings.qr-koodit');
+});
+
+Route::get('/terassisi-somet', function () {
+    return view('dashboard.settings.terassisi-somet');
+});
+
+Route::get('/avainsanat', function () {
+    return view('dashboard.settings.avainsanat');
+});
+
+Route::get('/widgetti', function () {
+    return view('dashboard.settings.widgetti');
+});
+
+Route::get('/facebook-pixels', function () {
+    return view('dashboard.settings.facebook-pixels');
+});
+
+Route::get('/google-analytics', function () {
+    return view('dashboard.settings.google-analytics');
+});
+
+Route::get('/widgetit', function () {
+    return view('dashboard.settings.widgetit');
+});
+
+Route::get('/tyuntekijaroolit', function () {
+    return view('dashboard.settings.tyuntekijaroolit');
+});
 // ////////////////////// subscription ///////////////////////////////////////////////
 Route::get('/subscription', function () {
     return view('subscription.index');

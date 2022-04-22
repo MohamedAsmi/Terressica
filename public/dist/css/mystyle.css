@@ -639,7 +639,8 @@ background: black;
 
 .second-nav{
   background: #000;
-  height: 700px;
+  height: auto;
+  min-height: 500px;
   padding-top: 10px;
   
 }
