@@ -28,6 +28,10 @@ Route::get('/addnewcategory', function () {
 Route::get('/editnewcategory', function () {
     return view('dashboard.add_new_category_edit');
 });
+Route::get('/charts', function(){
+    return view('dashboard.charts');
+});
+
 Route::get('/chart', function () {
     return view('dashboard.charts');
 });
@@ -64,6 +68,12 @@ Route::get('/time_monitorings', function () {
 });
 Route::get('/kolloko', function () {
     return view('dashboard.kolloko');
+});
+Route::get('/malit', function(){
+    return view('dashboard.malit');
+});
+Route::get('/edit_design_file', function(){
+    return view('dashboard.edit_design_file');
 });
 
 Route::get('/qr-koodit', function () {
@@ -111,4 +121,5 @@ Route::get('/subscription/payment-information', function () {
    return view('subscription.index');
 });
 Route::get('/subscription/summary', function(){
-    return view('subscription.index');});
+    return view('subscription.index');
+});
