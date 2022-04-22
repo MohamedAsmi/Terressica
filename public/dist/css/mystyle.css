@@ -796,3 +796,10 @@ select{
     border-radius: 0px 0px 0px 0px;
     margin-left: -20px;
 }
+.arrow-orange{    
+  padding: 15px;
+  background: #d6ffaa;
+  font-size: 30px;
+  color: #faa51a;
+  font-weight: normal;
+}

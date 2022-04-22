@@ -75,6 +75,9 @@ Route::get('/malit', function(){
 Route::get('/edit_design_file', function(){
     return view('dashboard.edit_design_file');
 });
+Route::get('/earn', function(){
+    return view('dashboard.earn');
+});
 
 // ////////////////////// subscription ///////////////////////////////////////////////
 Route::get('/subscription', function () {
