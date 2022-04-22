@@ -16,7 +16,7 @@
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-            <div class="row">
+            <div class="row" style="width: 100%;">
 
                 <div class="col-md-12 pt-4 ml-2">
                     <div class="row">
@@ -31,8 +31,8 @@
                 </div>
 
             </div>
-            <div class="row pl-4">
-                <div class="col-md-3 pt-4 text-center second-nav">
+            <div class="row pl-4 mr-0">
+                <div class="col-md-3 pt-4 text-center second-nav ">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false ">
 
@@ -146,7 +146,7 @@
 
                     </ul>
                 </div>
-                <div class="col-md-8 pt-4 container-body ml-2 second-nav">
+                <div class="col-md-8 pt-4 container-body ml-2 second-nav pb-3">
                     <div class="row">
                         <div class="col">
                             @yield('body')
