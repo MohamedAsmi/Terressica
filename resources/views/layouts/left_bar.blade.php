@@ -85,7 +85,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/kampanjat') }}" class="nav-link">
+                    <a href="{{ url('/kampanjat') }}" class="nav-link ">
                         <i class="nav-icon fab fa-rocketchat"></i>
                         <p>
                             Kampanjat

@@ -89,28 +89,28 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link active">
+                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
                                 <p class="text-sub">
                                     Mallit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link ">
                                 <p class="text-sub">
                                     QR-koodit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Sosiaaliset mediat
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Avainsanat
                                 </p>
@@ -122,21 +122,21 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Widgetit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Facebook pixels
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link">
+                            <a href="{{ url('/todo') }}" class="nav-link active">
                                 <p class="text-sub">
                                     Google
                                 </p>

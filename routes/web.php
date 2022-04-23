@@ -79,6 +79,10 @@ Route::get('/earn', function(){
     return view('dashboard.earn');
 });
 
+Route::get('/kampjet', function(){
+    return view('dashboard.kampjet');
+});
+
 Route::get('/qr-koodit', function () {
     return view('dashboard.settings.qr-koodit');
 });
@@ -103,13 +107,15 @@ Route::get('/google-analytics', function () {
     return view('dashboard.settings.google-analytics');
 });
 
-Route::get('/widgetit', function () {
-    return view('dashboard.settings.widgetit');
-});
+// Route::get('/widgetit', function () {
+//     return view('dashboard.settings.widgetit');
+// });
 
 Route::get('/tyuntekijaroolit', function () {
     return view('dashboard.settings.tyuntekijaroolit');
 });
+
+
 // ////////////////////// subscription ///////////////////////////////////////////////
 Route::get('/subscription', function () {
     return view('subscription.index');
