@@ -609,9 +609,9 @@ color: #ffc107;
 background: black;
 font-weight: 900;
 }
-.btn-white{
-color: white;
-background: black;
+.bn-white{
+color: white !important;
+background: black !important;
 }
 .cat-image{
   width: auto;
@@ -779,7 +779,20 @@ select{
   font-size: 24px;
   font-weight: 900;
 }
-
+.text-black-white{
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+}
+.text-orange-small{
+  color: #fAA51A;
+  font-size: 12px;
+}
+.text-black-small{
+      color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
 .head-design{
   color: gray;
 }
@@ -796,4 +809,71 @@ select{
     bottom: 24px;
     border-radius: 0px 0px 0px 0px;
     margin-left: -20px;
+}
+.arrow-orange{    
+  padding: 15px;
+  background: #d6ffaa;
+  font-size: 30px;
+  color: #faa51a;
+  font-weight: normal;
+}
+
+.dot {
+      height: 150px;
+    width: 150px;
+    /* background-color: #bbb; */
+    border-radius: 50%;
+    display: inline-block;
+    border: 11px solid #faa51a;
+    text-align: center;
+}
+.center{
+    margin: auto;
+    width: 100%;
+    padding: 28px;
+    font-size: 24px;
+}
+
+.bottom-chart{
+  background: white;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.kamjet-container{
+  background: #000;
+  padding: 20px;
+  border-radius:10px ;
+}
+.kamjet-container-sub .col{
+  height: 30px;
+}
+.kamjet-container-sub .img{
+    margin-top: -11px;
+}
+
+.kamjet-container-sub .img1{
+    height: 40px;
+}
+.kamjet-container-content{
+  background: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.kamjet-container-content-sub{
+
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 100;
 }
