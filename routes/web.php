@@ -54,7 +54,13 @@ Route::get('/todo', function () {
     return view('dashboard.todo');
 });
 
+Route::get('/vierailijat', function () {
+    return view('dashboard.Vierailijat');
+});
 
+Route::get('/tablemap', function () {
+    return view('dashboard.tablemap');
+});
 
 ////////////////////////// settings ///////////////////////////////////////////////////
 Route::get('/setting', function () {
