@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user_view.home');
+});
+Route::get('/category-page', function () {
+    return view('user_view.home');
 });
 
 Auth::routes();

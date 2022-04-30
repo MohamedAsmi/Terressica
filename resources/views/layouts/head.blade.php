@@ -42,4 +42,6 @@
     <!-- subcription -->
     <link rel='stylesheet' href="{{ asset('plugins/fontawesome/css/all.min.css') }}">
     <link rel='stylesheet' href="{{ asset('css/custom_css.css') }}">
+    <!-- slider -->
+    <link rel="stylesheet" href="{{asset('css/flickity.css')}}">
 </head>

@@ -30,13 +30,16 @@
 .primary-text-cl-g {
     color: #F2F2F2 !important;
 }
+
 /* ///////////// */
-.textCenter-alignment{
+.textCenter-alignment {
     text-align: center !important;
 }
-.border-radius_6{
+
+.border-radius_6 {
     border-radius: 6px;
 }
+
 /* /////////////  navbar style  ///////////////////// */
 #navbar_list {
     list-style: none;
@@ -545,15 +548,334 @@ input[type=number] {
     display: block;
     top: 0;
 }
-.left_site{
+
+.left_site {
     left: 0;
 }
-.right_site{
+
+.right_site {
     right: 0;
 }
+
 ._border div {
     margin-top: 10px;
     width: 100%;
     height: 45%;
     background: #000;
+}
+
+.sl_centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    opacity: 0.3;
+    border-radius: 35px;
+}
+
+.search_icon {
+    width: 45px;
+    height: 43px;
+    position: absolute;
+    right: -4px;
+    top: 158px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.search_icon svg {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.slider-header {
+    margin-top: 15px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .sl_centered h1 {
+      font-size: 20px !important;
+    }
+  } */
+@media only screen and (max-width: 980px) {
+    .text-cont {
+        top: 50px !important;
+        left: 70px !important;
+    }
+
+    .text-cont h2 {
+        font-size: 20px !important;
+    }
+
+    .play_button {
+        top: 65% !important;
+        right: 70px !important;
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width: 867px) {
+    .sl_centered {
+        width: 55% !important;
+    }
+
+    .slider-header {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sl_centered {
+        width: 58% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sl_centered {
+        width: 63% !important;
+    }
+
+    .slider-header {
+        margin-top: 30px;
+    }
+
+    .play_button svg {
+        font-size: 40px !important;
+    }
+
+    .play_button span {
+        font-size: 30px !important;
+    }
+
+    .play_button {
+        top: 75% !important;
+    }
+}
+
+@media only screen and (max-width: 689px) {
+    .sl_centered {
+        width: 100% !important;
+    }
+
+    .slider-header {
+        margin-top: 35px;
+    }
+
+    .sl_centered .search-container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .sl_centered .search_icon {
+        right: 16% !important;
+    }
+
+    .text-cont h2 {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .sl_centered h1 {
+        font-size: 40px !important;
+    }
+
+    .text-cont {
+        top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .sl_centered h1 {
+        font-size: 35px !important;
+    }
+
+    .sl_centered p {
+        font-size: 12px;
+    }
+
+    .play_button {
+        position: absolute !important;
+        top: 10% !important;
+        margin-left: 65%;
+    }
+    .play_button span span {
+        display: none;
+    }
+}
+
+.gallery {
+    background: #EEE;
+}
+
+.gallery-cell {
+    width: 300px;
+    min-height: 200px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    /* counter-increment: gallery-cell; */
+}
+
+.gallery-cell img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-cell-empty {
+    width: 250px;
+    min-height: 200px;
+    margin-right: 10px;
+
+    background: transparent;
+    counter-increment: gallery-cell;
+}
+
+
+.flickity-page-dots {
+    opacity: 0 !important;
+    display: none;
+}
+
+.list-but {
+    position: absolute;
+    width: 38px;
+    height: 85px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.list-but-min {
+    position: absolute;
+    width: 18px;
+    height: 65px;
+    margin: 10px;
+    background: #FFC529;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.points {
+    position: absolute;
+    min-width: 80px;
+    min-height: 24px;
+    left: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+.galler-set h2 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.ge-icon {
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+    left: 30%;
+
+}
+
+.ge-icon img {
+    width: 90px;
+    height: 90px;
+}
+
+.ge-icon h4 {
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.Campaing div {
+    min-height: 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.blog-list .card {
+    padding: 0px;
+    border-radius: 25px;
+}
+
+.main-block img {
+    border-radius: 30px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25), inset 0px 24px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-block .text-cont {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.play_button {
+    position: absolute;
+    top: 47%;
+    right: 100px;
+}
+
+.play_button svg {
+    border-radius: 50px;
+    font-size: 50px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.min-blog-con div {
+    min-height: 650px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../img/terassikesä2022 1.png');
+    border-radius: 40px;
+}
+
+.min-blog-con .offset-1 {
+    background-image: url('../img/palapeli-community 1.png');
+}
+
+.min-blog-con h1 {
+    background-image: none !important;
+    margin: 100px 0px 80px 60px !important;
+    font-size: 50px;
+}
+
+.min-blog-con .black_button {
+    background-image: none !important;
+    min-height: auto !important;
+    border-radius: 0px;
+    width: 55%;
+}
+
+#Terassiuutiset .gallery-cell {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 400px 200px;
+    background-image: url('../img/ravintola-veljekset-cover 2.png');
+}
+
+.postion_alginment {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
 }
