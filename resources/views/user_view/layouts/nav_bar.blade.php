@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-white navbar-light col-12">
+<nav class="navbar navbar-expand navbar-white navbar-light col-12" style="border-radius: 0px 0px 20px 20px; position: fixed; top: 0; z-index: 1;">
     <ul class="navbar-nav ml-auto mr-2">
         <li class="nav-item">
             <div class="form-inline">

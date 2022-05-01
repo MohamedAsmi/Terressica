@@ -29,7 +29,7 @@
         <h4 class="text-left col-12 p-0 row mb-5 ml-1">Lisää uusia avainsanoja tai poista vanhoja</h4>
         <form class="col-md-6">
             <div class="mb-3 row">
-                <div class="form-control offset-4 col-8 p-2 mb-3"><i class="fa-solid fa-plus pr-3"></i>Lisää uusi avainsana</div>
+                <div class="form-control offset-4 col-8 pt-3 mb-3"><i class="fa-solid fa-plus pr-3"></i>Lisää uusi avainsana</div>
                 <div class="form-control p-2 row ml-1">
                     <div class="col-6 row" style="float: left;">
                         <h3 class="col-8 m-auto">{tag}</h3>

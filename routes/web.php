@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('user.home');
+    // return view('user.home');
+    return view('user_view.home');
+});
+Route::get('/category-page', function () {
+    return view('user_view.home');
 });
 
 Auth::routes();
@@ -54,7 +58,13 @@ Route::get('/todo', function () {
     return view('dashboard.todo');
 });
 
+Route::get('/vierailijat', function () {
+    return view('dashboard.Vierailijat');
+});
 
+Route::get('/tablemap', function () {
+    return view('dashboard.tablemap');
+});
 
 ////////////////////////// settings ///////////////////////////////////////////////////
 Route::get('/setting', function () {
