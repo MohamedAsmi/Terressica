@@ -42,35 +42,35 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/addnewcategory') }}" class="nav-link ">
+                            <a href="{{ url('/terassisi-somet') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Terassin tiedot
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/editnewcategory') }}" class="nav-link ">
+                            <a href="{{ url('/teams') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Tiimit /osastot
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/chart') }}" class="nav-link ">
+                            <a href="{{ url('/time_monitorings') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Työajanseuranta
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/chat') }}" class="nav-link">
+                            <a href="{{ url('/tyuntekijaroolit') }}" class="nav-link">
                                 <p class="text-sub">
                                     Työntekijäroolit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/datatable') }}" class="nav-link ">
+                            <a href="{{ url('/kolloko') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Kellokortit
                                 </p>
@@ -89,14 +89,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
+                            <a href="{{ url('/malit') }}" class="nav-link">
                                 <p class="text-sub">
                                     Mallit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/qr-koodit') }}" class="nav-link ">
                                 <p class="text-sub">
                                     QR-koodit
                                 </p>

@@ -11,10 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    // return view('user.home');
-    return view('user_view.home');
+
+Route::get('/home1', function () {
+    return view('user.home');
+    // return view('user_view.home');
 });
+Route::get('/home2', function () {
+    return view('user.home2');
+    // return view('user_view.home');
+});
+Route::get('/home3', function () {
+    return view('user.home3');
+    // return view('user_view.home');
+});
+Route::get('/home4', function () {
+    return view('user.home4');
+    // return view('user_view.home');
+});
+
+
+
 Route::get('/category-page', function () {
     return view('user_view.home');
 });
@@ -39,7 +55,7 @@ Route::get('/charts', function(){
 Route::get('/chart', function () {
     return view('dashboard.charts');
 });
-Route::get('/chat', function () {
+Route::get('/chats', function () {
     return view('dashboard.chats');
 });
 Route::get('/datatable', function () {
@@ -89,7 +105,7 @@ Route::get('/earn', function(){
     return view('dashboard.earn');
 });
 
-Route::get('/kampjet', function(){
+Route::get('/kampanjat', function(){
     return view('dashboard.kampjet');
 });
 
