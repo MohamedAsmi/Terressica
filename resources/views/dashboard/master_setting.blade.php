@@ -32,45 +32,44 @@
 
             </div>
             <div class="row pl-4 mr-0">
-                <div class="col-md-3 pt-4 text-center second-nav ">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false ">
+                <div class="col-md-3 pt-4 text-center second-nav deshboard_bar" attr="setting-bar">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false ">
 
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <p class="text-head">
                                 Yleiset
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/addnewcategory') }}" class="nav-link ">
+                            <a href="{{ url('/setting') }}" class="nav-link" attr="pg-1">
                                 <p class="text-sub">
                                     Terassin tiedot
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/editnewcategory') }}" class="nav-link ">
+                            <a href="{{ url('/teams') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Tiimit /osastot
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/chart') }}" class="nav-link ">
+                            <a href="{{ url('/time_monitorings') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Työajanseuranta
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/chat') }}" class="nav-link">
+                            <a href="{{ url('/tyuntekijaroolit') }}" class="nav-link">
                                 <p class="text-sub">
                                     Työntekijäroolit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/datatable') }}" class="nav-link ">
+                            <a href="{{ url('/kolloko') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Kellokortit
                                 </p>
@@ -82,35 +81,35 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/order_semmary') }}" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <p class="text-sub">
                                     Kuvakirjasto
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
+                            <a href="{{ url('/malit') }}" class="nav-link">
                                 <p class="text-sub">
                                     Mallit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/qr-koodit') }}" class="nav-link ">
                                 <p class="text-sub">
                                     QR-koodit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/terassisi-somet') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Sosiaaliset mediat
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/avainsanat') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Avainsanat
                                 </p>
@@ -122,27 +121,27 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/widgetti') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Widgetit
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link ">
+                            <a href="{{ url('/facebook-pixels') }}" class="nav-link ">
                                 <p class="text-sub">
                                     Facebook pixels
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/todo') }}" class="nav-link active">
+                            <a href="{{ url('/google-analytics') }}" class="nav-link">
                                 <p class="text-sub">
                                     Google
                                 </p>
                             </a>
                         </li>
-                        {{--  --}}
+                        {{-- --}}
 
                     </ul>
                 </div>

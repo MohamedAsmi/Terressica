@@ -23,11 +23,11 @@ $('body').on({
 
 $(document).ready(function () {
     repeted();
-    function repeted(){
+    function repeted() {
         x = 1;
         u = 0;
         var classes = $('.flickity-page-dots li').map(function () {
-            $(this).attr('id', 'do'+u);
+            $(this).attr('id', 'do' + u);
             u++;
             return $(this).attr('id');
         });
@@ -36,14 +36,32 @@ $(document).ready(function () {
                 repeted();
             }
             $('.put').trigger('click');
-            console.log(classes[x]);
             x++;
         }, 3000);
     };
 
-    $(".put").on('click',function(){
+    $(".put").on('click', function () {
         // alert('set');
     })
+
+    $(document).ready(function ($) {
+        var url = window.location.href;
+        var activePage = url;
+        $('.deshboard_bar .nav-item a').each(function () {
+            var linkPage = this.href;
+            $(".deshboard_bar").each(function(){
+                if($(this).attr('attr') == 'setting-bar'){
+                    $('[attr="setting-menu"]').addClass('active');
+                }
+            });
+            if($('[attr="setting-menu"]').attr('href') == activePage){
+                $('a[attr="pg-1"]').addClass('active');
+            }
+            if (activePage == linkPage) {
+                $(this).addClass("active");
+            }
+        });
+    });
 })
 
 

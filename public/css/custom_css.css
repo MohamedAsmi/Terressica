@@ -879,3 +879,39 @@ input[type=number] {
     bottom: 30px;
     left: 20px;
 }
+
+.circle-logo{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #fbc00d;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+p{
+    font-size: small;
+}
+.clock-st{
+    font-size: large;
+    /* margin: auto; */
+    line-height: 50px;
+    margin-bottom: 1px;
+}
+.inside-shadow{
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.15)inset !important;
+}
+.rounded-5{
+    border-radius: 15px;
+}
+.rounded-3{
+    border-radius: 10px;
+}
+.shadow-2{
+    box-shadow: 0 .3rem .2rem rgba(0,0,0,.15) !important;
+}
+/* @media only screen and (min-width: 1390px) {
+    .container-fluid{
+        width: 1390px;
+    }
+} */

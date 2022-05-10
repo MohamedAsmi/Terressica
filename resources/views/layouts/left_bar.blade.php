@@ -7,7 +7,7 @@
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar deshboard_bar">
         <!-- Sidebar user panel (optional) -->
         {{-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
@@ -54,15 +54,15 @@
                 </li> --}}
                 <li class="nav-item ">
                     <a href="{{ url('/charts') }}" class="nav-link ">
-                        <i class="nav-icon fa fa-home"></i>
+                        <i class="fa-brands fa-microsoft"></i>
                         <p>
                             Hallintapaneeli
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/chats') }}" class="nav-link">
-                        <i class="nav-icon fab fa-rocketchat"></i>
+                    <a href="{{ url('/chat') }}" class="nav-link">
+                        <i class="fa-solid fa-message"></i>
                         <p>
                             Viestit
                         </p>
@@ -70,7 +70,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{ url('/datatable2') }}" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                        <i class="fa-solid fa-bag-shopping"></i>
                         <p>
                             Tilaukset
                         </p>
@@ -78,86 +78,79 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{ url('/datatable') }}" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                        <i class="fa-solid fa-calendar-check"></i>
                         <p>
                             Varaukset
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/kampanjat') }}" class="nav-link ">
-                        <i class="nav-icon fab fa-rocketchat"></i>
+                    <a href="{{ url('/kampjet') }}" class="nav-link ">
+                        <i class="fa-solid fa-crosshairs"></i>
                         <p>
                             Kampanjat
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/datatable') }}" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                    <a href="{{ url('/product') }}" class="nav-link">
+                        <i class="fa-solid fa-bars"></i>
                         <p>
                             Menu & tuotteet
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/datatable2') }}" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                    <a href="{{ url('/staff') }}" class="nav-link">
+                        <i class="fa-solid fa-user-group"></i>
                         <p>
                             Työntekijät
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/order_semmary') }}" class="nav-link ">
-                        <i class="nav-icon fab fa-rocketchat"></i>
+                    <a href="{{ url('/edit_design_file') }}" class="nav-link ">
+                        <i class="fa-solid fa-file-pen"></i>
                         <p>
                             Muokkaa terassisivua
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/order_semmary_merchain') }}" class="nav-link">
-                        <i class="nav-icon fab fa-amazon-pay"></i>
+                    <a href="{{ url('/vierailijat') }}" class="nav-link">
+                        <i class="fa-solid fa-clipboard-list"></i>
                         <p>
                             Analytiikka
                         </p>
                     </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="{{ url('/todo') }}" class="nav-link">
-                        <i class="nav-icon fas fa-tasks"></i>
-                        <p>
-                            Analytiikka
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('/todo') }}" class="nav-link ">
-                        <i class="nav-icon fas fa-sliders-h"></i>
+                    <a href="{{ url('/earn') }}" class="nav-link ">
+                        <i class="fa-solid fa-money-bill"></i>
                         <p>
                             Ansainta
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/todo') }}" class="nav-link ">
-                        <i class="nav-icon fas fa-sliders-h"></i>
+                    <a href="{{ url('/tablemap') }}" class="nav-link ">
+                        <i class="fa-solid fa-map"></i>
                         <p>
                             Salikartta
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/malit') }}" class="nav-link active">
-                        <i class="nav-icon fas fa-sliders-h"></i>
+                    <a href="{{ url('/setting') }}" class="nav-link" attr="setting-menu">
+                        <i class="fa-solid fa-gear"></i>
                         <p>
                             Asetukset
                         </p>
                     </a>
                 </li>
-                {{--  --}}
-
+                <br>
+                <br>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

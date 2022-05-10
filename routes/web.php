@@ -16,21 +16,24 @@ Route::get('/', function () {
     return view('user_view.home');
 });
 Route::get('/category-page', function () {
-    return view('user_view.home');
+    return view('user_view.categorypage');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/body', function () {
-    return view('dashboard.teams');
-});
+// Route::get('/body', function () {
+//     return view('dashboard.teams');
+// });
 
 Route::get('/addnewcategory', function () {
     return view('dashboard.add_new_category');
 });
 Route::get('/editnewcategory', function () {
     return view('dashboard.add_new_category_edit');
+});
+Route::get('/summary-checkout', function () {
+    return view('user_view.summary-checkout');
 });
 Route::get('/charts', function(){
     return view('dashboard.charts');
@@ -66,6 +69,13 @@ Route::get('/tablemap', function () {
     return view('dashboard.tablemap');
 });
 
+Route::get('/product', function () {
+    return view('dashboard.product');
+});
+
+Route::get('/staff', function () {
+    return view('dashboard.Staff');
+});
 ////////////////////////// settings ///////////////////////////////////////////////////
 Route::get('/setting', function () {
     return view('dashboard.setting');
