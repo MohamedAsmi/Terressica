@@ -108,6 +108,147 @@
                     width="600" height="450" frameborder="0" style="border:0"></iframe>
 
             </div>
+            <h5 class="card-footer">Ominaisuudet</h5>
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="card">
+            <h5 class="card-header">Ominaisuudet</h5>
+            <div class="card-body">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button col-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Question-title
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-start">
+                                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and
+                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed col-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Question-title
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-start">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing
+                                and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed col-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Question-title
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-start">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and
+                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="card">
+
+            <div class="card-body">
+                <img src="{{ asset('img/img1.png') }}" class="img-fluid">
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="card">
+
+            <div class="card-body">
+                <img src="{{ asset('img/img1.png') }}" class="img-fluid">
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="card">
+            <h5 class="card-header">Ominaisuudet</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img2.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img3.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img4.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img2.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img3.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content text-start">
+                            <img src="{{ asset('img/img4.png') }}" class="img-fluid">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 @endsection

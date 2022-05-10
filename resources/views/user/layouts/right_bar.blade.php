@@ -68,13 +68,43 @@
     <div class="row text-center">
         <div class="col-6 ads">Ads</div>
     </div>
-    <div class="row mt-4 text-center">
-        <div class="col-6 adsa2">
-            Yhteystiedot
-            <div class="content text-start">
-                <img src="{{ asset('img/circle-small.png') }}" / alt="">
-                <p>WIFI-verkko</p>
+    <div class="row mt-4 mb-4 text-center">
+        <div class="col-6 adsa2 ">
+            <b>Yhteystiedot</b>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="content text-start">
+                        <img src="{{ asset('img/circle-small.png') }}" class="img-fluid">
+                        <span>WIFI-verkko</span>
+                    </div>
+                </div>
             </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="content text-start">
+                        <img src="{{ asset('img/circle-small.png') }}" class="img-fluid">
+                        <span>WIFI-verkko</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="content text-start">
+                        <img src="{{ asset('img/circle-small.png') }}" class="img-fluid">
+                        <span>WIFI-verkko</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2 mb-4">
+                <div class="col">
+                    <div class="content text-start">
+                        <img src="{{ asset('img/circle-small.png') }}" class="img-fluid">
+                        <span>WIFI-verkko</span>
+                    </div>
+                </div>
+                <u><b>Katso kartalta</b></u>
+            </div>
+
         </div>
     </div>
 </div>

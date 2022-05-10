@@ -41,7 +41,11 @@
                             </p>
                         </li>
                         <li class="nav-item">
+<<<<<<< HEAD
                             <a href="{{ url('/setting') }}" class="nav-link" attr="pg-1">
+=======
+                            <a href="{{ url('/terassisi-somet') }}" class="nav-link ">
+>>>>>>> 11f17f5e505ea282707e3c771d909b45668a0812
                                 <p class="text-sub">
                                     Terassin tiedot
                                 </p>
