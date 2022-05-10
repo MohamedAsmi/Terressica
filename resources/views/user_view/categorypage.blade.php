@@ -25,169 +25,280 @@
     <h2 class="textCenter-alignment pt-4">Suosituimmat terassit</h2>
     <div class="container-fluid mt-4">
         <!-- partial:index.partial.html -->
-        <div class="row">
-            <div class="col-10 offset-1">
-                <div class="mb-3 row">
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell col-md-4 mr-0 mb-3">
-                        <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
-                        <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
-                        <span class="points pl-2" style="top: 125px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
-                        <div class="col-9" style="float: left;">
-                            <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
-                            <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
-                        </div>
-                        <div class="col-3 mt-4" style="float: left;">
-                            <div class="list-but"></div>
-                            <div class="list-but-min"></div>
-                        </div>
-                    </div>
+        <div class="gallery js-flickity mb-3" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell-empty">
+
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
                 </div>
             </div>
         </div>
         <!-- partial -->
+        <!-- partial:index.partial.html -->
+        <div class="gallery js-flickity mb-3" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell-empty">
+
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+        </div>
+        <!-- partial -->
+
     </div><!-- /.container-fluid -->
     <h2 class="textCenter-alignment pt-4">Suosituimmat terassit</h2>
     <div class="container-fluid mt-4 mb-4">
@@ -262,6 +373,141 @@
         <div class="Campaing row mt-5 mb-4">
             <div class="col-10 offset-1 primary-color-w">
                 <h2 style="top: 45%; left: 45%; position: absolute;">Campaing</h2>
+            </div>
+        </div>
+        <div class="gallery js-flickity mb-3" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell-empty">
+
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
             </div>
         </div>
         <h2 class="textCenter-alignment pt-4">Uudet terassit <span class="primary-text-cl">Terassikesässä</span></h2>
@@ -379,17 +625,275 @@
             </div>
 
         </div>
-        <div class="min-blog-con row mt-5">
-            <div class="col-5 offset-1">
-                <h1 class="offset-1 mt-5 primary-text-cl-w">Lisää Terassisi<br>Terassikesään</h1>
-                <div class="offset-1 black_button primary-color-b p-3">
-                    <h2 class="primary-text-cl">Liity kauppiasyhteisöön</h2>
+        <h2 class="textCenter-alignment mt-4 pt-4">Terassiuutiset</span></h2>
+        <div class="gallery js-flickity mb-3" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell-empty">
+
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
                 </div>
             </div>
-            <div class="col-5">
-                <h1 class="offset-1 mt-5 primary-text-cl-w">Miten Terassikesä syntyi</h1>
-                <div class="offset-1 black_button primary-color-b p-3">
-                    <h2 class="primary-text-cl">Tutustu Terassikesään</h2>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+        </div>
+        <h2 class="textCenter-alignment mt-4 pt-4">Terassiuutiset</span></h2>
+        <div class="gallery js-flickity mb-3" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell-empty">
+
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Avoinna</span>
+                <img src="{{asset('img/ravintola-veljekset-cover 2.png')}}" alt="">
+                <span class="points pl-2" style="top: 105px;"><img src="{{asset('img/smile.png')}}" alt="" style="margin-top: -4px; width: 22px; height: 21px; margin-right: 10px;">4.5</span>
+                <div class="col-9" style="float: left;">
+                    <h3 class="mt-4 pl-3">Ravintola Veljekset</h3>
+                    <h5 class="pl-3">Ravintola Sipoon Söderkullassa</h5>
+                </div>
+                <div class="col-3 mt-4" style="float: left;">
+                    <div class="list-but"></div>
+                    <div class="list-but-min"></div>
                 </div>
             </div>
         </div>
@@ -402,63 +906,63 @@
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>
                 <div class="gallery-cell">
                     <span class="points primary-text-cl textCenter-alignment" style="top: 15px;">Terassiuutiset</span>
                     <div class="postion_alginment">
-                        <h3 class="primary-text-cl-w" style="top: 125px;">{article-title}</h3>
+                        <h3 class="primary-text-cl-w" style="top: 105px;">{article-title}</h3>
                         <p class="primary-text-cl-w">{article-extract}</p>
                     </div>
                 </div>

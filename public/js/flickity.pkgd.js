@@ -1781,7 +1781,7 @@ proto.positionSlider = function() {
 
   var value = this.getPositionValue( x );
   value2 = value.replace('%','');
-  if(value2 > 40 && value2 < 41 && y < 20){
+  if(value2 > 40 && value2 < 41 && y < 40){
     value2 =value2- 50 + '%';
     y++;
   }else{
