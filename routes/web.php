@@ -11,6 +11,28 @@
 |
 */
 
+Route::get('/profile', function () {
+    return view('profile.home');
+    // return view('user_view.home');
+});
+Route::get('/frame', function () {
+    return view('profile.frame');
+    // return view('user_view.home');
+});
+Route::get('/suncoin', function () {
+    return view('profile.suncoin');
+    // return view('user_view.home');
+});
+Route::get('/add-promo', function () {
+    return view('profile.add-promo');
+    // return view('user_view.home');
+});
+
+Route::get('/profile-page-setting', function () {
+    return view('profile.profile-page-setting');
+    // return view('user_view.home');
+});
+
 
 Route::get('/home1', function () {
     return view('user.home');

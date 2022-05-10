@@ -951,6 +951,15 @@ section {
   transition: ease-in-out 0.4s;
   border-radius: 5px;
 }
+.row-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 20px;
+}
 .features .card-title {
   font-weight: 700;
   text-align: center;
@@ -2124,6 +2133,17 @@ section {
     padding-left: 3px;
 
 }
+.primary-text-mid{ 
+    color: #ffc107 !important;
+    font-size: 13px;
+    padding-left: 3px;
+
+}
+.primary-text-big{ 
+    color: #ffc107 !important;
+    font-size: 24px;
+
+}
 .primary-icon{ 
   color: #ffc107 !important;
       font-size: 14px;
@@ -2271,14 +2291,14 @@ div.demo span {
 /* Bootstrap 4 text input with search icon */
 
 .has-search .form-control {
-    padding-left: 2.375rem;
+    padding-left: 4.375rem;
 }
 
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
     display: block;
-    width: 2.375rem;
+    width: 3.375rem;
     height: 2.375rem;
     line-height: 2.375rem;
     text-align: center;
