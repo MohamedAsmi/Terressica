@@ -33,7 +33,8 @@
             </div>
             <div class="row pl-4 mr-0">
                 <div class="col-md-3 pt-4 text-center second-nav deshboard_bar" attr="setting-bar">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false ">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false ">
 
                         <li class="nav-item">
                             <p class="text-head">
@@ -41,11 +42,7 @@
                             </p>
                         </li>
                         <li class="nav-item">
-<<<<<<< HEAD
-                            <a href="{{ url('/setting') }}" class="nav-link" attr="pg-1">
-=======
                             <a href="{{ url('/terassisi-somet') }}" class="nav-link ">
->>>>>>> 11f17f5e505ea282707e3c771d909b45668a0812
                                 <p class="text-sub">
                                     Terassin tiedot
                                 </p>
@@ -145,7 +142,7 @@
                                 </p>
                             </a>
                         </li>
-                        {{-- --}}
+                        {{--  --}}
 
                     </ul>
                 </div>

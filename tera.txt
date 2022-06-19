@@ -1,0 +1,24 @@
+Hallintapaneeli = ControlPanel
+Viestit = Chat
+Tilaukset = Orders
+Varaukset = Reservations
+Kampanjat = Campaigns 
+Työntekijät = Employees
+Muokkaa = Edit
+
+
+
+Resevation
+Varaajan nimi	= Name of the booker
+Henkilömäärä	= Number of people
+Päivämäärä 	= Date
+Date 		= Clock time
+
+
+Employees
+Nimi                      = Name
+Työtehtävä                = Work task
+Tuntimäärä tällä viikolla = Number of hours this week
+Viimeksi paikalla         = Last spot
+
+chats
